@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mepitawogi-aiefficiency_jd063"
+version = "0.1.0"
+description = "通过字符级与结构级特征识别AI 工程效率工具工程师·梯度累积与有效批量的痕迹，给出密度与命中位置"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "mepitawogi" }]
+keywords = ["analysis", "observability", "evaluation", "rag"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://mepitawogi.github.io"
+Repository = "https://github.com/mepitawogi/aiefficiency_jd063"
+Issues = "https://github.com/mepitawogi/aiefficiency_jd063/issues"
+
+[project.scripts]
+aiefficiency_jd063 = "aiefficiency_jd063:main"
+
+[tool.setuptools]
+py-modules = ["aiefficiency_jd063"]
